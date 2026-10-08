@@ -1,0 +1,11 @@
+name = "strace"
+version = "6.12"
+description = "system call tracer"
+url = "https://github.com/strace/strace/releases/download/v6.12/strace-6.12.tar.xz"
+sha256 = ""
+deps = []
+steps = [
+  './configure --prefix=/usr --enable-mpers=no --enable-bundled=yes',
+  'make -j4',
+  'make DESTDIR="$DESTDIR" install',
+]
