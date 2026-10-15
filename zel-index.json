@@ -1,0 +1,715 @@
+{
+ "format": 2,
+ "packages": [
+  {
+   "name": "cairo",
+   "version": "1.18.4",
+   "description": "2D graphics library",
+   "license": "LGPL-2.1/MPL-1.1",
+   "homepage": "https://cairographics.org/",
+   "deps": [
+    "pixman",
+    "libpng",
+    "freetype",
+    "fontconfig",
+    "libxcb",
+    "xcb-util"
+   ],
+   "file": "cairo-1.18.4.zel",
+   "sha256": "067da8aac7029f9a432278e43b22a38db8db8df35b6fc8c0b4ca09145b90e57c",
+   "size": 630888,
+   "installed_size": 2492404,
+   "date": "2026-10-14T18:46:50Z"
+  },
+  {
+   "name": "curl",
+   "version": "8.7.1",
+   "description": "",
+   "license": "",
+   "homepage": "",
+   "deps": [
+    "zlib"
+   ],
+   "file": "curl-8.7.1.zel",
+   "sha256": "f94dd50e23aefaa2c89dc98db2f85b393a19b5a0cc954bf644a98fa900d818ac",
+   "size": 822565,
+   "installed_size": 3731849,
+   "date": "2026-10-13T18:42:05Z"
+  },
+  {
+   "name": "expat",
+   "version": "2.9.0",
+   "description": "XML parser library",
+   "license": "MIT",
+   "homepage": "https://libexpat.github.io/",
+   "deps": [],
+   "file": "expat-2.9.0.zel",
+   "sha256": "eebfd80d3f148e40e447de60160b53032a345e5ae4a808d183427774299df5d3",
+   "size": 142038,
+   "installed_size": 694390,
+   "date": "2026-10-14T18:11:45Z"
+  },
+  {
+   "name": "fastfetch",
+   "version": "2.67.0",
+   "description": "system information tool",
+   "license": "MIT",
+   "homepage": "https://github.com/fastfetch-cli/fastfetch",
+   "deps": [],
+   "file": "fastfetch-2.67.0.zel",
+   "sha256": "9da06368b6f6d3530fc7f9960c76c3f2668b28de3a3994aceef68e77147040bf",
+   "size": 713724,
+   "installed_size": 2252204,
+   "date": "2026-10-12T18:37:41Z"
+  },
+  {
+   "name": "fontconfig",
+   "version": "2.17.1",
+   "description": "Font configuration and lookup library",
+   "license": "MIT",
+   "homepage": "https://www.fontconfig.org/",
+   "deps": [
+    "expat",
+    "freetype"
+   ],
+   "file": "fontconfig-2.17.1.zel",
+   "sha256": "3c546872cfce292edb19f180ecfe646a57da7349c007bcf9a47994b3af669e45",
+   "size": 178879,
+   "installed_size": 737585,
+   "date": "2026-10-14T18:42:28Z"
+  },
+  {
+   "name": "freetype",
+   "version": "2.14.3",
+   "description": "Font rendering library",
+   "license": "FTL",
+   "homepage": "https://freetype.org/",
+   "deps": [],
+   "file": "freetype-2.14.3.zel",
+   "sha256": "da0b0657980001ad22e8e2252c1ceb229ea8eadad3172b0c23c9d899c8e5ccee",
+   "size": 519318,
+   "installed_size": 1907625,
+   "date": "2026-10-14T18:42:14Z"
+  },
+  {
+   "name": "fribidi",
+   "version": "1.0.16",
+   "description": "Unicode bidirectional algorithm library",
+   "license": "LGPL-2.1",
+   "homepage": "https://github.com/fribidi/fribidi",
+   "deps": [],
+   "file": "fribidi-1.0.16.zel",
+   "sha256": "e0114e237f55c6e898f0dc5d3736c99eb17af719a40ffe83baf3b460ae2b19c2",
+   "size": 39837,
+   "installed_size": 240942,
+   "date": "2026-10-14T18:42:34Z"
+  },
+  {
+   "name": "git",
+   "version": "2.44.0",
+   "description": "Fast, scalable, distributed revision control system",
+   "license": "GPL-2.0",
+   "homepage": "https://git-scm.com/",
+   "deps": [
+    "curl",
+    "zlib"
+   ],
+   "file": "git-2.44.0.zel",
+   "sha256": "ac20f2b9304821ec7aa06e7fbc06ed47ffc989b45261125c70ef07048284e92b",
+   "size": 5243604,
+   "installed_size": 581257286,
+   "date": "2026-10-13T18:53:30Z"
+  },
+  {
+   "name": "glib",
+   "version": "2.88.2",
+   "description": "GLib core library",
+   "license": "LGPL-2.1",
+   "homepage": "https://gitlab.gnome.org/GNOME/glib",
+   "deps": [
+    "libffi",
+    "pcre2",
+    "zlib"
+   ],
+   "file": "glib-2.88.2.zel",
+   "sha256": "9222bf238d6188b5ee5494628fce7f0eb7f150431dae67af83e156038fa65fd1",
+   "size": 6592296,
+   "installed_size": 54065892,
+   "date": "2026-10-14T18:26:09Z"
+  },
+  {
+   "name": "harfbuzz",
+   "version": "10.2.0",
+   "description": "Text shaping engine",
+   "license": "MIT",
+   "homepage": "https://harfbuzz.github.io/",
+   "deps": [
+    "glib",
+    "freetype"
+   ],
+   "file": "harfbuzz-10.2.0.zel",
+   "sha256": "1e6764390dea051913e63ed59607d3226a2a6107643b867e379910fb9b803356",
+   "size": 1233100,
+   "installed_size": 5892858,
+   "date": "2026-10-14T18:45:15Z"
+  },
+  {
+   "name": "htop",
+   "version": "3.3.0",
+   "description": "",
+   "license": "",
+   "homepage": "",
+   "deps": [],
+   "file": "htop-3.3.0.zel",
+   "sha256": "229930778c1bcb3fd4458f999b2ef268a6a546c9002257e29fcd6958bf112a5a",
+   "size": 283858,
+   "installed_size": 668143,
+   "date": "2026-10-13T18:22:01Z"
+  },
+  {
+   "name": "i3",
+   "version": "4.25.1",
+   "description": "Improved dynamic tiling window manager",
+   "license": "BSD",
+   "homepage": "https://i3wm.org/",
+   "deps": [
+    "libxcb",
+    "xcb-util",
+    "xcb-util-wm",
+    "xcb-util-keysyms",
+    "xcb-util-cursor",
+    "xcb-util-image",
+    "xcb-util-renderutil",
+    "xcb-util-xrm",
+    "libxau",
+    "libxkbcommon",
+    "startup-notification",
+    "yajl",
+    "libev",
+    "xorgproto",
+    "cairo",
+    "pango",
+    "pcre2"
+   ],
+   "file": "i3-4.25.1.zel",
+   "sha256": "b24b7b82f559d19c0b91d811d111dceee2e9a2b6de9b60eefda25e8d26ef37dd",
+   "size": 5187179,
+   "installed_size": 37201241,
+   "date": "2026-10-14T19:01:27Z"
+  },
+  {
+   "name": "libev",
+   "version": "4.33",
+   "description": "A full-featured high-performance event loop",
+   "license": "BSD-2-Clause",
+   "homepage": "http://software.schmorp.de/pkg/libev/",
+   "deps": [],
+   "file": "libev-4.33.zel",
+   "sha256": "d905801c6aafa5eee1317791ef30532f38f0fb878ce2ba9af4272f28e444cc24",
+   "size": 111028,
+   "installed_size": 415347,
+   "date": "2026-10-14T18:55:31Z"
+  },
+  {
+   "name": "libevent",
+   "version": "2.1.12",
+   "description": "Event notification library",
+   "license": "BSD-3-Clause",
+   "homepage": "https://libevent.org/",
+   "deps": [],
+   "file": "libevent-2.1.12.zel",
+   "sha256": "298af59cc75a5410561e0341f2509c677385151c3d263633d2b9f1d7534b9834",
+   "size": 228043,
+   "installed_size": 1562504,
+   "date": "2026-10-13T19:10:00Z"
+  },
+  {
+   "name": "libffi",
+   "version": "3.5.2",
+   "description": "Foreign function interface library",
+   "license": "MIT",
+   "homepage": "https://sourceware.org/libffi/",
+   "deps": [],
+   "file": "libffi-3.5.2.zel",
+   "sha256": "835d30dff373c7926377364bbf30747cfbdee41b553a483f41cbf0bf591cee2e",
+   "size": 29928,
+   "installed_size": 107943,
+   "date": "2026-10-14T18:23:07Z"
+  },
+  {
+   "name": "libpng",
+   "version": "1.6.59",
+   "description": "PNG reference library",
+   "license": "libpng",
+   "homepage": "http://www.libpng.org/",
+   "deps": [],
+   "file": "libpng-1.6.59.zel",
+   "sha256": "cc044112323b0ec7fa17634b2587a0c1c1a05e9ed280c4ca9f7494392b47594b",
+   "size": 272369,
+   "installed_size": 1087956,
+   "date": "2026-10-14T15:10:02Z"
+  },
+  {
+   "name": "libx11",
+   "version": "1.8.13",
+   "description": "Core X11 protocol client library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorgproto",
+    "libxcb",
+    "xtrans",
+    "util-macros"
+   ],
+   "file": "libx11-1.8.13.zel",
+   "sha256": "6f92e449577e67c3d2768fd7636459a09d60c3229d8ec816ad4bbb2286d2c2d6",
+   "size": 1042325,
+   "installed_size": 5573179,
+   "date": "2026-10-14T14:58:41Z"
+  },
+  {
+   "name": "libxau",
+   "version": "1.0.11",
+   "description": "Sample authorization protocol for X",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "util-macros",
+    "xorgproto"
+   ],
+   "file": "libxau-1.0.11.zel",
+   "sha256": "a739310b20bf98434aeb4dd3647c17336cf93aca8e7de603efd666b32db8fcd1",
+   "size": 8346,
+   "installed_size": 28143,
+   "date": "2026-10-14T12:17:38Z"
+  },
+  {
+   "name": "libxcb",
+   "version": "1.16.1",
+   "description": "X C Binding",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "util-macros",
+    "xcb-proto",
+    "libxau"
+   ],
+   "file": "libxcb-1.16.1.zel",
+   "sha256": "eeea9616683f77356a59695503eea0becaa568a864cb6327324439d0e48589a3",
+   "size": 473074,
+   "installed_size": 4840209,
+   "date": "2026-10-14T12:18:20Z"
+  },
+  {
+   "name": "libxkbcommon",
+   "version": "1.13.2",
+   "description": "Keymap compiler and support library",
+   "license": "MIT/X11",
+   "homepage": "https://xkbcommon.org/",
+   "deps": [
+    "xorgproto",
+    "libxcb",
+    "libxml2"
+   ],
+   "file": "libxkbcommon-1.13.2.zel",
+   "sha256": "83bfa05f53a7d91edefdbf349a36d1de15f19bee70dcf893f5141e7ba78ce97f",
+   "size": 248962,
+   "installed_size": 1062196,
+   "date": "2026-10-14T18:55:24Z"
+  },
+  {
+   "name": "libxml2",
+   "version": "2.13.4",
+   "description": "XML parser library",
+   "license": "MIT",
+   "homepage": "http://xmlsoft.org/",
+   "deps": [],
+   "file": "libxml2-2.13.4.zel",
+   "sha256": "ad7f2427fb04fcfb3978d5b532de11348f370b2d503f83fc094e225767003d8c",
+   "size": 1019883,
+   "installed_size": 7543830,
+   "date": "2026-10-14T13:39:13Z"
+  },
+  {
+   "name": "musl-fts",
+   "version": "1.2.7",
+   "description": "Implementation of fts(3) functions for musl libc",
+   "license": "BSD-3-Clause",
+   "homepage": "https://github.com/pullmoll/musl-fts",
+   "deps": [],
+   "file": "musl-fts-1.2.7.zel",
+   "sha256": "66dea25228392f7752866edff97115bbc4aec639af9f557a8d2460b890f5e713",
+   "size": 7842,
+   "installed_size": 19759,
+   "date": "2026-10-13T22:46:29Z"
+  },
+  {
+   "name": "ncurses",
+   "version": "0",
+   "description": "",
+   "license": "",
+   "homepage": "",
+   "deps": [],
+   "file": "ncurses-0.zel",
+   "sha256": "3e247fc09e991d812b2162ee00f3ae854913ecde0926342f4c7293a0bb1e128a",
+   "size": 3095136,
+   "installed_size": 12171677,
+   "date": "2026-10-13T18:20:40Z"
+  },
+  {
+   "name": "nnn",
+   "version": "4.9",
+   "description": "The missing terminal file manager",
+   "license": "BSD-2-Clause",
+   "homepage": "https://github.com/jarun/nnn",
+   "deps": [
+    "ncurses",
+    "musl-fts"
+   ],
+   "file": "nnn-4.9.zel",
+   "sha256": "54e03dd2b04368ba5aa4b08acd8071891685fa366a7de18f825b2fa5d4a36d77",
+   "size": 246768,
+   "installed_size": 547839,
+   "date": "2026-10-13T22:46:58Z"
+  },
+  {
+   "name": "pango",
+   "version": "1.56.3",
+   "description": "Text layout and rendering library",
+   "license": "LGPL-2.0",
+   "homepage": "https://pango.gnome.org/",
+   "deps": [
+    "glib",
+    "harfbuzz",
+    "fribidi",
+    "fontconfig",
+    "freetype",
+    "cairo"
+   ],
+   "file": "pango-1.56.3.zel",
+   "sha256": "cd511096ac644d8ed7d5267802ca0f95ca0108a910a8f0f627d1dfccfade381e",
+   "size": 3475816,
+   "installed_size": 21024309,
+   "date": "2026-10-14T18:47:03Z"
+  },
+  {
+   "name": "pcre2",
+   "version": "10.42",
+   "description": "Perl Compatible Regular Expressions 2",
+   "license": "BSD-3-Clause",
+   "homepage": "https://www.pcre.org/",
+   "deps": [],
+   "file": "pcre2-10.42.zel",
+   "sha256": "852864dc71cdf97f4943de6eada7acbe462468c3c14a9ed653eab6c8a69d8311",
+   "size": 702105,
+   "installed_size": 4919726,
+   "date": "2026-10-14T12:00:47Z"
+  },
+  {
+   "name": "pixman",
+   "version": "0.46.4",
+   "description": "Pixel manipulation library",
+   "license": "MIT",
+   "homepage": "https://www.pixman.org/",
+   "deps": [],
+   "file": "pixman-0.46.4.zel",
+   "sha256": "254612237d8e52c3870c3ddb1f19a40883608bb22a5837ff3e02373b7c685575",
+   "size": 302364,
+   "installed_size": 1006134,
+   "date": "2026-10-14T18:46:27Z"
+  },
+  {
+   "name": "startup-notification",
+   "version": "0.12",
+   "description": "Library for application startup notification",
+   "license": "LGPL-2.0",
+   "homepage": "https://www.freedesktop.org/wiki/Software/startup-notification/",
+   "deps": [
+    "libx11",
+    "libxcb",
+    "xcb-util",
+    "xorgproto"
+   ],
+   "file": "startup-notification-0.12.zel",
+   "sha256": "b89c27b257aaf4036df744b94a5a60c09a128415801cfc72ed6a1f8711e67658",
+   "size": 17965,
+   "installed_size": 81963,
+   "date": "2026-10-14T14:58:47Z"
+  },
+  {
+   "name": "strace",
+   "version": "6.12",
+   "description": "system call tracer",
+   "license": "",
+   "homepage": "",
+   "deps": [],
+   "file": "strace-6.12.zel",
+   "sha256": "a6d5f09a8073edf16027a486c570a06cbf0716af6ab0e01e91c50d832d596bb7",
+   "size": 532057,
+   "installed_size": 0,
+   "date": ""
+  },
+  {
+   "name": "tmux",
+   "version": "3.4",
+   "description": "Terminal multiplexer",
+   "license": "ISC",
+   "homepage": "https://tmux.github.io/",
+   "deps": [
+    "ncurses",
+    "libevent"
+   ],
+   "file": "tmux-3.4.zel",
+   "sha256": "68375482121a93a390cca739cede722b04e880a2304df9687945bd3bffe8d1d4",
+   "size": 581150,
+   "installed_size": 1502417,
+   "date": "2026-10-13T20:29:13Z"
+  },
+  {
+   "name": "tzdata",
+   "version": "2025b",
+   "description": "time zone database",
+   "license": "Public Domain",
+   "homepage": "https://www.iana.org/time-zones",
+   "deps": [],
+   "file": "tzdata-2025b.zel",
+   "sha256": "3be3cf5a8a2da0b8e48c82ace56bda99a7b0fac93d5b16bccb1522143ccc9421",
+   "size": 106474,
+   "installed_size": 748477,
+   "date": "2026-10-12T19:07:53Z"
+  },
+  {
+   "name": "util-macros",
+   "version": "1.20.0",
+   "description": "X.Org macros for autotools build systems",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [],
+   "file": "util-macros-1.20.0.zel",
+   "sha256": "e7b8700e279abd2f27ddeff6a6c57619ca26e0a26a44c60f60b80ea5f6f21330",
+   "size": 22035,
+   "installed_size": 88149,
+   "date": "2026-10-14T12:08:57Z"
+  },
+  {
+   "name": "vim",
+   "version": "9.1",
+   "description": "Vi IMproved, a programmers text editor",
+   "license": "Vim",
+   "homepage": "https://www.vim.org/",
+   "deps": [
+    "ncurses"
+   ],
+   "file": "vim-9.1.zel",
+   "sha256": "0babbe189cafd18cf719201ba37d16dda05d4a4a9f558ac7a27a1bae88333ffc",
+   "size": 9128090,
+   "installed_size": 42590135,
+   "date": "2026-10-13T20:39:35Z"
+  },
+  {
+   "name": "xcb-cursor",
+   "version": "0.1.6",
+   "description": "XCB cursor library",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb",
+    "xcb-util",
+    "xcb-util-image",
+    "xcb-util-renderutil",
+    "libxau",
+    "xorgproto"
+   ],
+   "file": "xcb-cursor-0.1.6.zel",
+   "sha256": "e4a782941d44a7e188afb524222d8c63f2e4a88e81c5e0430e5986a636ee0ebf",
+   "size": 9811,
+   "installed_size": 33369,
+   "date": "2026-10-14T13:23:06Z"
+  },
+  {
+   "name": "xcb-proto",
+   "version": "1.16.0",
+   "description": "X C Binding XML-protocol descriptions",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [],
+   "file": "xcb-proto-1.16.0.zel",
+   "sha256": "57044c10f3245455ab1fa4ddfccfa31fafc0a569dc3cae617ff31efd7ebcf14e",
+   "size": 130796,
+   "installed_size": 1074049,
+   "date": "2026-10-14T12:15:12Z"
+  },
+  {
+   "name": "xcb-util",
+   "version": "0.4.1",
+   "description": "Utility libraries for XCB (base)",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb"
+   ],
+   "file": "xcb-util-0.4.1.zel",
+   "sha256": "6d102522280c9be68415b88ef3bab22164c6b80a7e666164a29fed7671dc8af0",
+   "size": 9388,
+   "installed_size": 32771,
+   "date": "2026-10-14T12:20:51Z"
+  },
+  {
+   "name": "xcb-util-cursor",
+   "version": "0.1.6",
+   "description": "XCB cursor library",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb",
+    "xcb-util",
+    "xcb-util-image",
+    "xcb-util-renderutil",
+    "libxau",
+    "xorgproto"
+   ],
+   "file": "xcb-util-cursor-0.1.6.zel",
+   "sha256": "a98685104e5ff8276c0a254579d3fd9c4b2bcf34ebebbd4e16dc82c6080ca0e3",
+   "size": 9816,
+   "installed_size": 33369,
+   "date": "2026-10-14T13:51:50Z"
+  },
+  {
+   "name": "xcb-util-image",
+   "version": "0.4.1",
+   "description": "XCB port of Xlib's XImage and XShmImage",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb",
+    "xcb-util",
+    "libxau",
+    "xorgproto"
+   ],
+   "file": "xcb-util-image-0.4.1.zel",
+   "sha256": "17b36f61046746fd95409734fb48e22229cb643cf6e27b3336b3f47b40cdf858",
+   "size": 15243,
+   "installed_size": 50040,
+   "date": "2026-10-14T13:22:53Z"
+  },
+  {
+   "name": "xcb-util-keysyms",
+   "version": "0.4.1",
+   "description": "Standard X key constants and conversion functions",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb"
+   ],
+   "file": "xcb-util-keysyms-0.4.1.zel",
+   "sha256": "27c96f81562a29e142efcf2a711fef2ebb5e99578590a0d2b7662eee882f2ec8",
+   "size": 4485,
+   "installed_size": 16753,
+   "date": "2026-10-14T12:24:40Z"
+  },
+  {
+   "name": "xcb-util-renderutil",
+   "version": "0.3.10",
+   "description": "Convenience functions for the X Render extension",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb",
+    "xorgproto"
+   ],
+   "file": "xcb-util-renderutil-0.3.10.zel",
+   "sha256": "9c734dd04525d04385d53180516fbab73acd1a2ae56bfac52d97dff5601c18e6",
+   "size": 6449,
+   "installed_size": 18564,
+   "date": "2026-10-14T13:20:57Z"
+  },
+  {
+   "name": "xcb-util-wm",
+   "version": "0.4.2",
+   "description": "XCB utility libraries for window managers",
+   "license": "MIT",
+   "homepage": "https://xcb.freedesktop.org/",
+   "deps": [
+    "libxcb"
+   ],
+   "file": "xcb-util-wm-0.4.2.zel",
+   "sha256": "f2c56e3b3cbc530f104e0eb00686e6add1f217ca5585a601fef053b10b8118c7",
+   "size": 28156,
+   "installed_size": 224631,
+   "date": "2026-10-14T12:35:08Z"
+  },
+  {
+   "name": "xcb-util-xrm",
+   "version": "1.3",
+   "description": "XCB utility functions for the X resource manager",
+   "license": "MIT",
+   "homepage": "https://github.com/Airblader/xcb-util-xrm",
+   "deps": [
+    "libxcb",
+    "xcb-util",
+    "xorgproto"
+   ],
+   "file": "xcb-util-xrm-1.3.zel",
+   "sha256": "8542da5dc3027b2238b12114d57465ed1cf5e4815fd0872aea73625fe1f139fa",
+   "size": 13578,
+   "installed_size": 43529,
+   "date": "2026-10-14T15:06:06Z"
+  },
+  {
+   "name": "xorgproto",
+   "version": "2024.1",
+   "description": "X.Org X11 protocol headers",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "util-macros"
+   ],
+   "file": "xorgproto-2024.1.zel",
+   "sha256": "71e5fe6b59469598a2fedbc23906267fa17359f1f2c05683cd432af6e9785e74",
+   "size": 539402,
+   "installed_size": 4034934,
+   "date": "2026-10-14T12:17:34Z"
+  },
+  {
+   "name": "xtrans",
+   "version": "1.6.0",
+   "description": "X transport library (headers only)",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "util-macros"
+   ],
+   "file": "xtrans-1.6.0.zel",
+   "sha256": "aa4f3f5018d704bc36699ae4660c5dbef28c70183494ca5cd9719f96b5252d4d",
+   "size": 41072,
+   "installed_size": 215303,
+   "date": "2026-10-14T14:58:11Z"
+  },
+  {
+   "name": "yajl",
+   "version": "2.1.0",
+   "description": "A fast streaming JSON parsing library in C",
+   "license": "ISC",
+   "homepage": "https://lloyd.github.io/yajl/",
+   "deps": [],
+   "file": "yajl-2.1.0.zel",
+   "sha256": "28d013b41de5a2eba46b73cb672b42be8fd833238693bc1a89aa3d8c12c247c5",
+   "size": 24544,
+   "installed_size": 158295,
+   "date": "2026-10-14T18:55:27Z"
+  },
+  {
+   "name": "zlib",
+   "version": "1.3.1",
+   "description": "A mass-zlib data compression library",
+   "license": "Zlib",
+   "homepage": "https://zlib.net/",
+   "deps": [],
+   "file": "zlib-1.3.1.zel",
+   "sha256": "c43839241a7fb365b1e14dcbe16c63b1516cbe6c352e6d66e61f0b8d6419c03b",
+   "size": 80097,
+   "installed_size": 247305,
+   "date": "2026-10-13T18:37:58Z"
+  }
+ ]
+}
