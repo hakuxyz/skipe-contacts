@@ -105,6 +105,19 @@
    "date": "2026-10-14T18:42:34Z"
   },
   {
+   "name": "giflib",
+   "version": "5.2.2",
+   "description": "GIF image library",
+   "license": "MIT",
+   "homepage": "https://giflib.sourceforge.io/",
+   "deps": [],
+   "file": "giflib-5.2.2.zel",
+   "sha256": "34d6a51bee2c8dd6b6ae893343900dd3101c45737ae1ca5321ed712c07a3df03",
+   "size": 102825,
+   "installed_size": 592316,
+   "date": "2026-10-15T20:35:12Z"
+  },
+  {
    "name": "git",
    "version": "2.44.0",
    "description": "Fast, scalable, distributed revision control system",
@@ -198,6 +211,186 @@
    "date": "2026-10-14T19:01:27Z"
   },
   {
+   "name": "libICE",
+   "version": "1.1.2",
+   "description": "X11 Inter-Client Exchange library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libICE-1.1.2.zel",
+   "sha256": "5628594c5762cbbec109798232fa58e1dac353f4e94813211fdadc055a6972d8",
+   "size": 80938,
+   "installed_size": 432716,
+   "date": "2026-10-15T20:35:11Z"
+  },
+  {
+   "name": "libSM",
+   "version": "1.2.6",
+   "description": "X11 Session Management library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libICE",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libSM-1.2.6.zel",
+   "sha256": "77564e00adf45a51130d8f72d9e7ec62c7be76a0e92f57cb86b30c767e05b260",
+   "size": 44552,
+   "installed_size": 278637,
+   "date": "2026-10-15T20:35:45Z"
+  },
+  {
+   "name": "libXext",
+   "version": "1.3.7",
+   "description": "X11 protocol extensions library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXext-1.3.7.zel",
+   "sha256": "96fd941be9e087d7d8837dea5ca45022997b25ba8fccc37c6ca290eee5d2b11f",
+   "size": 70719,
+   "installed_size": 404788,
+   "date": "2026-10-15T20:36:33Z"
+  },
+  {
+   "name": "libXft",
+   "version": "2.3.9",
+   "description": "X11 font rendering library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "freetype",
+    "fontconfig",
+    "libXrender",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXft-2.3.9.zel",
+   "sha256": "01b9f89a80b2fe5797858c2e5eed594d89953b30244034e41e8e700d8feeb0f4",
+   "size": 61080,
+   "installed_size": 202986,
+   "date": "2026-10-15T20:37:40Z"
+  },
+  {
+   "name": "libXinerama",
+   "version": "1.1.6",
+   "description": "X11 Xinerama extension library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libXext",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXinerama-1.1.6.zel",
+   "sha256": "cd1ed4f0eeb71767a4f1b47befbc2c7def44a11ec39af84e2a9491a621fd8618",
+   "size": 6535,
+   "installed_size": 17117,
+   "date": "2026-10-15T20:37:31Z"
+  },
+  {
+   "name": "libXmu",
+   "version": "1.3.1",
+   "description": "X11 miscellaneous utility library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libXt",
+    "libXext",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXmu-1.3.1.zel",
+   "sha256": "b5a7f03d0079f652621fd29c63aead5339d473094ac9057e9778db6e1dc867a0",
+   "size": 80911,
+   "installed_size": 447453,
+   "date": "2026-10-15T20:37:36Z"
+  },
+  {
+   "name": "libXpm",
+   "version": "3.5.19",
+   "description": "X11 pixmap library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libXext",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXpm-3.5.19.zel",
+   "sha256": "68147b38a138433034bfdb9ac4f080be0febc22ecb2a51d8c35e1163b41bb84f",
+   "size": 57912,
+   "installed_size": 223533,
+   "date": "2026-10-15T20:37:06Z"
+  },
+  {
+   "name": "libXrandr",
+   "version": "1.5.5",
+   "description": "X11 RandR extension library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libXrender",
+    "libXext",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXrandr-1.5.5.zel",
+   "sha256": "7bcdc665e8482c0997736a87bc9995875f8dcdd4dd577855be1164477604c0a1",
+   "size": 24070,
+   "installed_size": 100082,
+   "date": "2026-10-15T20:37:28Z"
+  },
+  {
+   "name": "libXrender",
+   "version": "0.9.12",
+   "description": "X11 Render extension library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXrender-0.9.12.zel",
+   "sha256": "b9e2d842f6353da5de6d9cc1299af8e1d4801fc604916e18b66ccee63b29a7a2",
+   "size": 27877,
+   "installed_size": 112931,
+   "date": "2026-10-15T20:36:37Z"
+  },
+  {
+   "name": "libXt",
+   "version": "1.3.1",
+   "description": "X11 Toolkit Intrinsics library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libSM",
+    "libICE",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXt-1.3.1.zel",
+   "sha256": "39abc953e58008a154c2651be901f0781e223b450b53433726dc6876181c30b2",
+   "size": 410994,
+   "installed_size": 2585640,
+   "date": "2026-10-15T20:37:23Z"
+  },
+  {
    "name": "libev",
    "version": "4.33",
    "description": "A full-featured high-performance event loop",
@@ -237,6 +430,19 @@
    "date": "2026-10-14T18:23:07Z"
   },
   {
+   "name": "libjpeg-turbo",
+   "version": "3.1.4",
+   "description": "JPEG image codec",
+   "license": "BSD",
+   "homepage": "https://libjpeg-turbo.org/",
+   "deps": [],
+   "file": "libjpeg-turbo-3.1.4.zel",
+   "sha256": "f0b573534235aa5541a881cffb0947558a68e3abbdce7cfe32eec32a9c5c214e",
+   "size": 545789,
+   "installed_size": 5059889,
+   "date": "2026-10-15T20:35:34Z"
+  },
+  {
    "name": "libpng",
    "version": "1.6.59",
    "description": "PNG reference library",
@@ -248,6 +454,22 @@
    "size": 272369,
    "installed_size": 1087956,
    "date": "2026-10-14T15:10:02Z"
+  },
+  {
+   "name": "libtiff",
+   "version": "4.7.2",
+   "description": "TIFF image library",
+   "license": "libtiff",
+   "homepage": "https://libtiff.gitlab.io/libtiff/",
+   "deps": [
+    "libjpeg-turbo",
+    "zlib"
+   ],
+   "file": "libtiff-4.7.2.zel",
+   "sha256": "ad176b64be9f6633776f33cdad48c62fb2233c274e5d560386eb680712984e08",
+   "size": 2010062,
+   "installed_size": 28632473,
+   "date": "2026-10-15T20:36:54Z"
   },
   {
    "name": "libx11",
@@ -505,6 +727,33 @@
    "size": 9128090,
    "installed_size": 42590135,
    "date": "2026-10-13T20:39:35Z"
+  },
+  {
+   "name": "wmaker",
+   "version": "0.96.0",
+   "description": "Window Maker window manager",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://windowmaker.org/",
+   "deps": [
+    "libX11",
+    "libXext",
+    "libXmu",
+    "libXinerama",
+    "libXrandr",
+    "libXft",
+    "libXpm",
+    "libpng",
+    "libjpeg-turbo",
+    "libtiff",
+    "giflib",
+    "freetype",
+    "fontconfig"
+   ],
+   "file": "wmaker-0.96.0.zel",
+   "sha256": "08ac14c6bc04ddd4dcffd49944675abd404cef17c3d79911b1744a7ee5f356f0",
+   "size": 3782209,
+   "installed_size": 25883146,
+   "date": "2026-10-15T20:54:43Z"
   },
   {
    "name": "xcb-cursor",
