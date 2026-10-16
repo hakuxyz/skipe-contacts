@@ -1230,10 +1230,10 @@
     "util-macros"
    ],
    "file": "xorg-server-1.20.14.zel",
-   "sha256": "b352734ac56b8e3cfe907b1b10b3545191a6f9af9f9e4aa5a06abd91e10e463a",
-   "size": 2208389,
-   "installed_size": 8850029,
-   "date": "2026-10-16T16:27:29Z"
+   "sha256": "fbbb8a6c537c234aab607cd02b699daf2ef563be7e2248a591913800a4a41786",
+   "size": 2209823,
+   "installed_size": 8852107,
+   "date": "2026-10-16T20:23:59Z"
   },
   {
    "name": "xorgproto",
