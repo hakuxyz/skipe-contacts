@@ -37,6 +37,19 @@
    "date": "2026-10-13T18:42:05Z"
   },
   {
+   "name": "eudev",
+   "version": "3.2.14",
+   "description": "Device manager",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://github.com/eudev-project/eudev",
+   "deps": [],
+   "file": "eudev-3.2.14.zel",
+   "sha256": "f64dd8e8dcbbbab9bd2e41454af29045606f0a8dc65922b3e620b6c61f7ae29d",
+   "size": 1299479,
+   "installed_size": 9609215,
+   "date": "2026-10-16T16:43:56Z"
+  },
+  {
    "name": "expat",
    "version": "2.9.0",
    "description": "XML parser library",
@@ -77,6 +90,21 @@
    "size": 178879,
    "installed_size": 737585,
    "date": "2026-10-14T18:42:28Z"
+  },
+  {
+   "name": "fonts-dejavu",
+   "version": "2.37",
+   "description": "DejaVu TrueType fonts",
+   "license": "Bitstream-Vera",
+   "homepage": "https://dejavu-fonts.github.io/",
+   "deps": [
+    "fontconfig"
+   ],
+   "file": "fonts-dejavu-2.37.zel",
+   "sha256": "8f31661bdb849102b8a6747c90472300ed78eb1fce593c93e8ed614fa78477c1",
+   "size": 2718016,
+   "installed_size": 10208608,
+   "date": "2026-10-16T16:45:41Z"
   },
   {
    "name": "freetype",
@@ -261,6 +289,25 @@
    "date": "2026-10-15T20:36:33Z"
   },
   {
+   "name": "libXfont2",
+   "version": "2.0.9",
+   "description": "X11 font rasterisation library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "freetype",
+    "libfontenc",
+    "zlib",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXfont2-2.0.9.zel",
+   "sha256": "f588345b75aced519b4ee40d39657c8aa7a8fc2662fe60d798913993aa553a87",
+   "size": 106543,
+   "installed_size": 330690,
+   "date": "2026-10-15T22:17:10Z"
+  },
+  {
    "name": "libXft",
    "version": "2.3.9",
    "description": "X11 font rendering library",
@@ -391,6 +438,19 @@
    "date": "2026-10-15T20:37:23Z"
   },
   {
+   "name": "libdrm",
+   "version": "2.4.134",
+   "description": "Direct Rendering Manager library",
+   "license": "MIT",
+   "homepage": "https://dri.freedesktop.org/",
+   "deps": [],
+   "file": "libdrm-2.4.134.zel",
+   "sha256": "55370d935417a2a5206faf875ec9478caccd9dba676ad3b522ec0dd9e482d217",
+   "size": 514788,
+   "installed_size": 1738531,
+   "date": "2026-10-15T22:33:24Z"
+  },
+  {
    "name": "libev",
    "version": "4.33",
    "description": "A full-featured high-performance event loop",
@@ -402,6 +462,19 @@
    "size": 111028,
    "installed_size": 415347,
    "date": "2026-10-14T18:55:31Z"
+  },
+  {
+   "name": "libevdev",
+   "version": "1.13.4",
+   "description": "Input event device library",
+   "license": "MIT",
+   "homepage": "https://www.freedesktop.org/wiki/Software/libevdev/",
+   "deps": [],
+   "file": "libevdev-1.13.4.zel",
+   "sha256": "6a2c7bd23022241c709ca831bbaae99e0c4078c34197e4c96a1d6ee268413aa8",
+   "size": 74297,
+   "installed_size": 445351,
+   "date": "2026-10-16T16:44:25Z"
   },
   {
    "name": "libevent",
@@ -430,6 +503,23 @@
    "date": "2026-10-14T18:23:07Z"
   },
   {
+   "name": "libfontenc",
+   "version": "1.1.8",
+   "description": "X11 font encoding library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "zlib",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libfontenc-1.1.8.zel",
+   "sha256": "0c8d50ef155f39b0769499b84dcd10f741f3de49e86ac5b3a5a48f58fa0cdee4",
+   "size": 14550,
+   "installed_size": 45943,
+   "date": "2026-10-15T22:16:59Z"
+  },
+  {
    "name": "libjpeg-turbo",
    "version": "3.1.4",
    "description": "JPEG image codec",
@@ -441,6 +531,35 @@
    "size": 545789,
    "installed_size": 5059889,
    "date": "2026-10-15T20:35:34Z"
+  },
+  {
+   "name": "libmd",
+   "version": "1.3.0",
+   "description": "Message digest library",
+   "license": "BSD",
+   "homepage": "https://libbsd.freedesktop.org/wiki/",
+   "deps": [],
+   "file": "libmd-1.3.0.zel",
+   "sha256": "bfe5c370d25c7bafd91a712f6776073fa8e5f48e082532c71807a966cd095cb8",
+   "size": 42194,
+   "installed_size": 177182,
+   "date": "2026-10-15T22:16:43Z"
+  },
+  {
+   "name": "libpciaccess",
+   "version": "0.19",
+   "description": "PCI access library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libpciaccess-0.19.zel",
+   "sha256": "6b4a64c3733b85fa98150c5b0d08bbfa0b8f893be1d58d95bd7d081a06077ab5",
+   "size": 84250,
+   "installed_size": 218838,
+   "date": "2026-10-15T22:52:47Z"
   },
   {
    "name": "libpng",
@@ -540,6 +659,23 @@
    "date": "2026-10-14T18:55:24Z"
   },
   {
+   "name": "libxkbfile",
+   "version": "1.1.3",
+   "description": "XKB file handling library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libxkbfile-1.1.3.zel",
+   "sha256": "3e2a7ead94a9f6d25854865a449682dcba237faaf2df8518fa3824e22556e7f6",
+   "size": 78840,
+   "installed_size": 287104,
+   "date": "2026-10-15T22:21:03Z"
+  },
+  {
    "name": "libxml2",
    "version": "2.13.4",
    "description": "XML parser library",
@@ -551,6 +687,19 @@
    "size": 1019883,
    "installed_size": 7543830,
    "date": "2026-10-14T13:39:13Z"
+  },
+  {
+   "name": "mtdev",
+   "version": "1.1.6",
+   "description": "Multitouch protocol translation library",
+   "license": "MIT",
+   "homepage": "https://bitmath.org/code/mtdev/",
+   "deps": [],
+   "file": "mtdev-1.1.6.zel",
+   "sha256": "0e1449051aab7a374950e9b28eac546a9210b98645aa4e0c26ef95a7fd634fb0",
+   "size": 15641,
+   "installed_size": 57030,
+   "date": "2026-10-16T16:43:13Z"
   },
   {
    "name": "musl-fts",
@@ -903,6 +1052,124 @@
    "size": 13578,
    "installed_size": 43529,
    "date": "2026-10-14T15:06:06Z"
+  },
+  {
+   "name": "xf86-input-evdev",
+   "version": "2.11.0",
+   "description": "Xorg evdev input driver",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorg-server",
+    "libevdev",
+    "mtdev",
+    "eudev",
+    "libX11",
+    "libXrandr",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "xf86-input-evdev-2.11.0.zel",
+   "sha256": "82a7b33b3ff0e08f6581cf9f835db485831a8f8dbd45518975599c367a1fbffe",
+   "size": 97051,
+   "installed_size": 261213,
+   "date": "2026-10-16T16:44:29Z"
+  },
+  {
+   "name": "xf86-video-fbdev",
+   "version": "0.5.1",
+   "description": "Xorg framebuffer video driver",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorg-server",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "xf86-video-fbdev-0.5.1.zel",
+   "sha256": "a5cab9fcbaffe774a61138936612447da2b14dd5c9bc8028feb6cfd0129ef5b2",
+   "size": 10368,
+   "installed_size": 25568,
+   "date": "2026-10-16T16:42:12Z"
+  },
+  {
+   "name": "xinit",
+   "version": "1.4.4",
+   "description": "X session starter",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "xinit-1.4.4.zel",
+   "sha256": "cfe0e441f08c185f44ee3505a8a4b342a5bb9a00bcec303c60dcdda75d9a6ec2",
+   "size": 569059,
+   "installed_size": 1121375,
+   "date": "2026-10-16T16:34:59Z"
+  },
+  {
+   "name": "xkbcomp",
+   "version": "1.5.0",
+   "description": "XKB keymap compiler",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libxkbfile",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "xkbcomp-1.5.0.zel",
+   "sha256": "0309fbc02845452b31522e0c9d023d49350955ff5657837051393b17aae5d72b",
+   "size": 695920,
+   "installed_size": 1420060,
+   "date": "2026-10-15T22:21:46Z"
+  },
+  {
+   "name": "xkeyboard-config",
+   "version": "2.48",
+   "description": "XKB keyboard configuration data",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [],
+   "file": "xkeyboard-config-2.48.zel",
+   "sha256": "72abf09fed98c545aefd4ca20ba831dd662c14d934c191aedc4ae25f41d2f62c",
+   "size": 901780,
+   "installed_size": 10761773,
+   "date": "2026-10-15T22:22:01Z"
+  },
+  {
+   "name": "xorg-server",
+   "version": "1.20.14",
+   "description": "Xorg X server",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libmd",
+    "libdrm",
+    "libpciaccess",
+    "libXfont2",
+    "libX11",
+    "libxcb",
+    "libXau",
+    "libxkbfile",
+    "xtrans",
+    "xorgproto",
+    "freetype",
+    "fontconfig",
+    "zlib",
+    "xkbcomp",
+    "xkeyboard-config",
+    "util-macros"
+   ],
+   "file": "xorg-server-1.20.14.zel",
+   "sha256": "b352734ac56b8e3cfe907b1b10b3545191a6f9af9f9e4aa5a06abd91e10e463a",
+   "size": 2208389,
+   "installed_size": 8850029,
+   "date": "2026-10-16T16:27:29Z"
   },
   {
    "name": "xorgproto",
