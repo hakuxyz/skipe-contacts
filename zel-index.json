@@ -884,13 +884,13 @@
    "license": "GPL-2.0-or-later",
    "homepage": "https://windowmaker.org/",
    "deps": [
-    "libX11",
-    "libXext",
-    "libXmu",
-    "libXinerama",
-    "libXrandr",
-    "libXft",
-    "libXpm",
+    "libx11",
+    "libxext",
+    "libxmu",
+    "libxinerama",
+    "libxrandr",
+    "libxft",
+    "libxpm",
     "libpng",
     "libjpeg-turbo",
     "libtiff",
@@ -899,10 +899,10 @@
     "fontconfig"
    ],
    "file": "wmaker-0.96.0.zel",
-   "sha256": "08ac14c6bc04ddd4dcffd49944675abd404cef17c3d79911b1744a7ee5f356f0",
-   "size": 3782209,
+   "sha256": "bb123b2eab1b942a12fee33ae76423e24ec1fd33db4f326232aba720f8b53bc8",
+   "size": 3781995,
    "installed_size": 25883146,
-   "date": "2026-10-15T20:54:43Z"
+   "date": "2026-10-16T18:33:10Z"
   },
   {
    "name": "xcb-cursor",
