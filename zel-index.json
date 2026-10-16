@@ -925,6 +925,27 @@
    "date": "2026-10-16T21:31:14Z"
   },
   {
+   "name": "verda-desktop",
+   "version": "0.2",
+   "description": "VerdaOS default X configuration",
+   "license": "MIT",
+   "homepage": "https://verdaos.org/",
+   "deps": [
+    "xorg-server",
+    "xf86-video-fbdev",
+    "xf86-input-evdev",
+    "xf86-input-keyboard",
+    "xinit",
+    "wmaker",
+    "fonts-dejavu"
+   ],
+   "file": "verda-desktop-0.2.zel",
+   "sha256": "9bec97d884401753cd9c8e4fcdacbcf54113652da2bbd3832ee8a845b236ffb5",
+   "size": 951,
+   "installed_size": 481,
+   "date": "2026-10-16T21:44:31Z"
+  },
+  {
    "name": "vim",
    "version": "9.1",
    "description": "Vi IMproved, a programmers text editor",
