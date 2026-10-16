@@ -57,10 +57,10 @@
    "homepage": "https://libexpat.github.io/",
    "deps": [],
    "file": "expat-2.9.0.zel",
-   "sha256": "eebfd80d3f148e40e447de60160b53032a345e5ae4a808d183427774299df5d3",
-   "size": 142038,
-   "installed_size": 694390,
-   "date": "2026-10-14T18:11:45Z"
+   "sha256": "748f37adf48d90cabce8ba805001ed65611adb73aca042d63c20cf9084bcfe71",
+   "size": 147310,
+   "installed_size": 693446,
+   "date": "2026-10-16T20:41:42Z"
   },
   {
    "name": "fastfetch",
@@ -86,10 +86,10 @@
     "freetype"
    ],
    "file": "fontconfig-2.17.1.zel",
-   "sha256": "3c546872cfce292edb19f180ecfe646a57da7349c007bcf9a47994b3af669e45",
-   "size": 178879,
+   "sha256": "5d09430ee54464974dd7c629f9741aa7c9a1a0ab1212a574f1b66d740153bce9",
+   "size": 178848,
    "installed_size": 737585,
-   "date": "2026-10-14T18:42:28Z"
+   "date": "2026-10-16T20:41:50Z"
   },
   {
    "name": "fonts-dejavu",
@@ -114,10 +114,10 @@
    "homepage": "https://freetype.org/",
    "deps": [],
    "file": "freetype-2.14.3.zel",
-   "sha256": "da0b0657980001ad22e8e2252c1ceb229ea8eadad3172b0c23c9d899c8e5ccee",
-   "size": 519318,
+   "sha256": "1a1b855c7ffaf234398412c809231edd452885b42171bd496f0f4bd8f6eead6f",
+   "size": 519375,
    "installed_size": 1907625,
-   "date": "2026-10-14T18:42:14Z"
+   "date": "2026-10-16T20:40:58Z"
   },
   {
    "name": "fribidi",
@@ -140,10 +140,10 @@
    "homepage": "https://giflib.sourceforge.io/",
    "deps": [],
    "file": "giflib-5.2.2.zel",
-   "sha256": "34d6a51bee2c8dd6b6ae893343900dd3101c45737ae1ca5321ed712c07a3df03",
-   "size": 102825,
-   "installed_size": 592316,
-   "date": "2026-10-15T20:35:12Z"
+   "sha256": "af5494361c18834b9533533e26a9a769d5cd8fbc5032b9ec1a4e0f86a0cba123",
+   "size": 65675,
+   "installed_size": 353820,
+   "date": "2026-10-16T20:59:54Z"
   },
   {
    "name": "git",
@@ -302,10 +302,10 @@
     "util-macros"
    ],
    "file": "libXfont2-2.0.9.zel",
-   "sha256": "f588345b75aced519b4ee40d39657c8aa7a8fc2662fe60d798913993aa553a87",
-   "size": 106543,
-   "installed_size": 330690,
-   "date": "2026-10-15T22:17:10Z"
+   "sha256": "dc616db0a1438de0513929f51e9e86359dbb2db9c147df1d61b4bde89db49a68",
+   "size": 108228,
+   "installed_size": 337154,
+   "date": "2026-10-16T20:41:15Z"
   },
   {
    "name": "libXft",
@@ -445,10 +445,10 @@
    "homepage": "https://dri.freedesktop.org/",
    "deps": [],
    "file": "libdrm-2.4.134.zel",
-   "sha256": "55370d935417a2a5206faf875ec9478caccd9dba676ad3b522ec0dd9e482d217",
-   "size": 514788,
+   "sha256": "29a67bb56bc94d73b0f416cface537c1cb557e4aaa20a0aef17a5dbe79cf1bc8",
+   "size": 514761,
    "installed_size": 1738531,
-   "date": "2026-10-15T22:33:24Z"
+   "date": "2026-10-16T20:42:04Z"
   },
   {
    "name": "libev",
@@ -514,10 +514,10 @@
     "util-macros"
    ],
    "file": "libfontenc-1.1.8.zel",
-   "sha256": "0c8d50ef155f39b0769499b84dcd10f741f3de49e86ac5b3a5a48f58fa0cdee4",
-   "size": 14550,
-   "installed_size": 45943,
-   "date": "2026-10-15T22:16:59Z"
+   "sha256": "8f4db24f0468b2b9a4cef05bd8e746ee852dc3f1aaaad17968780f22ccf1bec0",
+   "size": 14672,
+   "installed_size": 45151,
+   "date": "2026-10-16T20:41:05Z"
   },
   {
    "name": "libjpeg-turbo",
@@ -540,10 +540,10 @@
    "homepage": "https://libbsd.freedesktop.org/wiki/",
    "deps": [],
    "file": "libmd-1.3.0.zel",
-   "sha256": "bfe5c370d25c7bafd91a712f6776073fa8e5f48e082532c71807a966cd095cb8",
-   "size": 42194,
-   "installed_size": 177182,
-   "date": "2026-10-15T22:16:43Z"
+   "sha256": "ddd6539969dbabc075e44a5d6133f926e521b5bd4fb855957ffa2b37b5a673f9",
+   "size": 42138,
+   "installed_size": 177726,
+   "date": "2026-10-16T20:41:56Z"
   },
   {
    "name": "libpciaccess",
@@ -556,10 +556,10 @@
     "util-macros"
    ],
    "file": "libpciaccess-0.19.zel",
-   "sha256": "6b4a64c3733b85fa98150c5b0d08bbfa0b8f893be1d58d95bd7d081a06077ab5",
-   "size": 84250,
+   "sha256": "885bfd1564be40d5ffc54ccf0ec0953ac988ea45d5860fbd6924c607caaa6ce2",
+   "size": 84223,
    "installed_size": 218838,
-   "date": "2026-10-15T22:52:47Z"
+   "date": "2026-10-16T20:41:58Z"
   },
   {
    "name": "libpng",
@@ -812,10 +812,10 @@
    "homepage": "https://www.pixman.org/",
    "deps": [],
    "file": "pixman-0.46.4.zel",
-   "sha256": "254612237d8e52c3870c3ddb1f19a40883608bb22a5837ff3e02373b7c685575",
-   "size": 302364,
+   "sha256": "8aa43dd5759a8953f3165d1039597c253a3937dd67dcd1a852ccbd57ce69eae9",
+   "size": 302338,
    "installed_size": 1006134,
-   "date": "2026-10-14T18:46:27Z"
+   "date": "2026-10-16T20:41:28Z"
   },
   {
    "name": "startup-notification",
@@ -1225,15 +1225,16 @@
     "freetype",
     "fontconfig",
     "zlib",
+    "giflib",
     "xkbcomp",
     "xkeyboard-config",
     "util-macros"
    ],
    "file": "xorg-server-1.20.14.zel",
-   "sha256": "fbbb8a6c537c234aab607cd02b699daf2ef563be7e2248a591913800a4a41786",
-   "size": 2209823,
-   "installed_size": 8852107,
-   "date": "2026-10-16T20:23:59Z"
+   "sha256": "d90c794ba525cc499bd3885bc17e60542adabe1c1bfef674334a469b1896efde",
+   "size": 2199498,
+   "installed_size": 8852947,
+   "date": "2026-10-16T21:03:31Z"
   },
   {
    "name": "xorgproto",
@@ -1286,10 +1287,10 @@
    "homepage": "https://zlib.net/",
    "deps": [],
    "file": "zlib-1.3.1.zel",
-   "sha256": "c43839241a7fb365b1e14dcbe16c63b1516cbe6c352e6d66e61f0b8d6419c03b",
-   "size": 80097,
-   "installed_size": 247305,
-   "date": "2026-10-13T18:37:58Z"
+   "sha256": "89d6b1fa70d6fda3b84343cc7f15440918468df518d26383fb6e34c426f8b6a3",
+   "size": 80669,
+   "installed_size": 248137,
+   "date": "2026-10-16T20:41:00Z"
   }
  ]
 }
