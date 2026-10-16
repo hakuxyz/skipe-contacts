@@ -689,6 +689,19 @@
    "date": "2026-10-14T13:39:13Z"
   },
   {
+   "name": "micro",
+   "version": "2.0.15",
+   "description": "Modern terminal text editor",
+   "license": "MIT",
+   "homepage": "https://micro-editor.github.io/",
+   "deps": [],
+   "file": "micro-2.0.15.zel",
+   "sha256": "800c0d0b0d57e055899141a5cab47f8c2ede0df38b27bcb7a26d64f33fb221bb",
+   "size": 4710180,
+   "installed_size": 14026840,
+   "date": "2026-10-16T19:28:53Z"
+  },
+  {
    "name": "mtdev",
    "version": "1.1.6",
    "description": "Multitouch protocol translation library",
@@ -1087,6 +1100,22 @@
    "size": 13578,
    "installed_size": 43529,
    "date": "2026-10-14T15:06:06Z"
+  },
+  {
+   "name": "xclip",
+   "version": "0.13",
+   "description": "Command line clipboard tool",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://github.com/astrand/xclip",
+   "deps": [
+    "libX11",
+    "libXmu"
+   ],
+   "file": "xclip-0.13.zel",
+   "sha256": "a93255ab23144b34b01e31d15ce4c9630f3f723bea7311fc5cec2f2f4843095d",
+   "size": 796722,
+   "installed_size": 1747403,
+   "date": "2026-10-16T19:31:28Z"
   },
   {
    "name": "xf86-input-evdev",
