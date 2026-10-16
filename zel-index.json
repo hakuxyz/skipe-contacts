@@ -1153,6 +1153,24 @@
    "date": "2026-10-16T16:44:29Z"
   },
   {
+   "name": "xf86-input-keyboard",
+   "version": "1.9.0",
+   "description": "Xorg keyboard input driver",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "xorg-server",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "xf86-input-keyboard-1.9.0.zel",
+   "sha256": "cb6aee6ac492c02337615d6c655dd6209ab9765eaaca58c21721d3e7348b1ad9",
+   "size": 10268,
+   "installed_size": 26765,
+   "date": "2026-10-16T21:30:40Z"
+  },
+  {
    "name": "xf86-video-fbdev",
    "version": "0.5.1",
    "description": "Xorg framebuffer video driver",
