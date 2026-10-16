@@ -76,6 +76,19 @@
    "date": "2026-10-12T18:37:41Z"
   },
   {
+   "name": "fetch",
+   "version": "2.3.0",
+   "description": "Spinning 3D distro logo fetch tool",
+   "license": "MIT",
+   "homepage": "https://github.com/areofyl/fetch",
+   "deps": [],
+   "file": "fetch-2.3.0.zel",
+   "sha256": "92677681fcaa0f0efaeb25f0f3ae97bb2d3947dfc860e609aa2deafccfa55a48",
+   "size": 68047,
+   "installed_size": 128592,
+   "date": "2026-10-16T21:13:05Z"
+  },
+  {
    "name": "fontconfig",
    "version": "2.17.1",
    "description": "Font configuration and lookup library",
