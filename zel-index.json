@@ -715,6 +715,21 @@
    "date": "2026-10-13T22:46:29Z"
   },
   {
+   "name": "nano",
+   "version": "9.2",
+   "description": "Nano text editor",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://www.nano-editor.org/",
+   "deps": [
+    "ncurses"
+   ],
+   "file": "nano-9.2.zel",
+   "sha256": "b7dfbd58cd536745cb688367caeae306584bed602a5bb945da511a5583a099e2",
+   "size": 795290,
+   "installed_size": 3321995,
+   "date": "2026-10-16T19:01:45Z"
+  },
+  {
    "name": "ncurses",
    "version": "0",
    "description": "",
@@ -861,6 +876,26 @@
    "size": 22035,
    "installed_size": 88149,
    "date": "2026-10-14T12:08:57Z"
+  },
+  {
+   "name": "verda-desktop",
+   "version": "0.1",
+   "description": "VerdaOS default X configuration",
+   "license": "MIT",
+   "homepage": "https://verdaos.org/",
+   "deps": [
+    "xorg-server",
+    "xf86-video-fbdev",
+    "xf86-input-evdev",
+    "xinit",
+    "wmaker",
+    "fonts-dejavu"
+   ],
+   "file": "verda-desktop-0.1.zel",
+   "sha256": "70735a9880ce931fb70f70fe4f2ce0c91addac45efb773a40f50dadf9538d283",
+   "size": 921,
+   "installed_size": 459,
+   "date": "2026-10-16T19:14:31Z"
   },
   {
    "name": "vim",
