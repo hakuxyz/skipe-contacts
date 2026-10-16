@@ -913,15 +913,16 @@
     "xorg-server",
     "xf86-video-fbdev",
     "xf86-input-evdev",
+    "xf86-input-keyboard",
     "xinit",
     "wmaker",
     "fonts-dejavu"
    ],
    "file": "verda-desktop-0.1.zel",
-   "sha256": "70735a9880ce931fb70f70fe4f2ce0c91addac45efb773a40f50dadf9538d283",
-   "size": 921,
+   "sha256": "4e9db91f4cbdf7de8caa07072d13fabb6b1246f25db3fa9b8568899f5fae5de6",
+   "size": 933,
    "installed_size": 459,
-   "date": "2026-10-16T19:14:31Z"
+   "date": "2026-10-16T21:31:14Z"
   },
   {
    "name": "vim",
