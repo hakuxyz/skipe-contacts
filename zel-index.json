@@ -905,27 +905,6 @@
   },
   {
    "name": "verda-desktop",
-   "version": "0.1",
-   "description": "VerdaOS default X configuration",
-   "license": "MIT",
-   "homepage": "https://verdaos.org/",
-   "deps": [
-    "xorg-server",
-    "xf86-video-fbdev",
-    "xf86-input-evdev",
-    "xf86-input-keyboard",
-    "xinit",
-    "wmaker",
-    "fonts-dejavu"
-   ],
-   "file": "verda-desktop-0.1.zel",
-   "sha256": "4e9db91f4cbdf7de8caa07072d13fabb6b1246f25db3fa9b8568899f5fae5de6",
-   "size": 933,
-   "installed_size": 459,
-   "date": "2026-10-16T21:31:14Z"
-  },
-  {
-   "name": "verda-desktop",
    "version": "0.2",
    "description": "VerdaOS default X configuration",
    "license": "MIT",
