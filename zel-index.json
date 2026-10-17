@@ -2,6 +2,34 @@
  "format": 2,
  "packages": [
   {
+   "name": "bash",
+   "version": "5.2.37",
+   "description": "GNU Bourne-Again shell",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://www.gnu.org/software/bash/",
+   "deps": [
+    "ncurses"
+   ],
+   "file": "bash-5.2.37.zel",
+   "sha256": "44a03fa89396d1bd81722fc3a1f8e01ca7e5e56e2a0eceac3c8e15f9ac9d20e7",
+   "size": 1905526,
+   "installed_size": 9909255,
+   "date": "2026-10-17T20:38:47Z"
+  },
+  {
+   "name": "ca-certificates",
+   "version": "2025",
+   "description": "Mozilla CA bundle for TLS verification",
+   "license": "MPL-2.0",
+   "homepage": "https://curl.se/docs/caextract.html",
+   "deps": [],
+   "file": "ca-certificates-2025.zel",
+   "sha256": "382b02d524bf991e7edc9069999aa37a38c42031764869e23770fd6f09e7eddd",
+   "size": 104710,
+   "installed_size": 188900,
+   "date": "2026-10-17T20:42:28Z"
+  },
+  {
    "name": "cairo",
    "version": "1.18.4",
    "description": "2D graphics library",
@@ -250,6 +278,21 @@
    "size": 5187179,
    "installed_size": 37201241,
    "date": "2026-10-14T19:01:27Z"
+  },
+  {
+   "name": "less",
+   "version": "668",
+   "description": "Pager similar to more and man",
+   "license": "BSD-3-Clause",
+   "homepage": "https://greenwood.com/less/",
+   "deps": [
+    "ncurses"
+   ],
+   "file": "less-668.zel",
+   "sha256": "14584deb452125453e17e50f4d8f3aa5581fd880043371a01c65ddfd4a9768c7",
+   "size": 220871,
+   "installed_size": 619598,
+   "date": "2026-10-17T20:40:52Z"
   },
   {
    "name": "libICE",
@@ -806,6 +849,21 @@
    "date": "2026-10-13T22:46:58Z"
   },
   {
+   "name": "openssl",
+   "version": "3.4.1",
+   "description": "TLS/crypto library and tools",
+   "license": "Apache-2.0",
+   "homepage": "https://www.openssl.org/",
+   "deps": [
+    "zlib"
+   ],
+   "file": "openssl-3.4.1.zel",
+   "sha256": "5edc3539ddca916becd4f054ab5a66bee9edc055806cabddfd504ba28c83a2d8",
+   "size": 4299649,
+   "installed_size": 20902087,
+   "date": "2026-10-17T21:09:06Z"
+  },
+  {
    "name": "pango",
    "version": "1.56.3",
    "description": "Text layout and rendering library",
@@ -850,6 +908,52 @@
    "size": 302338,
    "installed_size": 1006134,
    "date": "2026-10-16T20:41:28Z"
+  },
+  {
+   "name": "rsync",
+   "version": "3.4.1",
+   "description": "Fast incremental file transfer",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://rsync.samba.org/",
+   "deps": [
+    "zlib"
+   ],
+   "file": "rsync-3.4.1.zel",
+   "sha256": "e5defd62a2ea7ca3c06edaa37e667369b7a03d7cc1ea770df3f47dae771b6083",
+   "size": 499323,
+   "installed_size": 1059865,
+   "date": "2026-10-17T21:10:33Z"
+  },
+  {
+   "name": "skipe",
+   "version": "0.2.0",
+   "description": "VerdaOS package manager (with Debian package support)",
+   "license": "MIT",
+   "homepage": "https://github.com/hakuxyz/skipe-contacts",
+   "deps": [],
+   "file": "skipe-0.2.0.zel",
+   "sha256": "6c3d66207edbed2ecc94ae8a26574bd632c7a4f6c917af918247230411e7b3a2",
+   "size": 684260,
+   "installed_size": 1659648,
+   "date": "2026-10-17T21:32:00Z"
+  },
+  {
+   "name": "st",
+   "version": "0.9.2",
+   "description": "Simple terminal emulator for X",
+   "license": "MIT",
+   "homepage": "https://st.suckless.org/",
+   "deps": [
+    "libx11",
+    "libxft",
+    "fontconfig",
+    "freetype"
+   ],
+   "file": "st-0.9.2.zel",
+   "sha256": "41b38ea01d7c289da2413c794a550c9b3c1cbe7fdb14c30c213e3f31f2d2c6e5",
+   "size": 1149971,
+   "installed_size": 2438355,
+   "date": "2026-10-17T21:07:45Z"
   },
   {
    "name": "startup-notification",
@@ -912,6 +1016,19 @@
    "date": "2026-10-12T19:07:53Z"
   },
   {
+   "name": "unzip",
+   "version": "6.0",
+   "description": "Extractor for zip archives",
+   "license": "BSD-3-Clause",
+   "homepage": "https://info-zip.org/",
+   "deps": [],
+   "file": "unzip-6.0.zel",
+   "sha256": "805546c0dfc185ba4a77773b3d80781936ff088e06ad2d81204cc1f0eca85d0a",
+   "size": 151320,
+   "installed_size": 663355,
+   "date": "2026-10-17T21:07:43Z"
+  },
+  {
    "name": "util-macros",
    "version": "1.20.0",
    "description": "X.Org macros for autotools build systems",
@@ -960,6 +1077,36 @@
    "size": 9128090,
    "installed_size": 42590135,
    "date": "2026-10-13T20:39:35Z"
+  },
+  {
+   "name": "wget",
+   "version": "1.25.0",
+   "description": "Non-interactive network downloader",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://www.gnu.org/software/wget/",
+   "deps": [
+    "openssl",
+    "zlib",
+    "ca-certificates"
+   ],
+   "file": "wget-1.25.0.zel",
+   "sha256": "6668d4001ca9cf33627b28d15892c39c28b865bdd27ce206b87e5ff4114d9b50",
+   "size": 2268529,
+   "installed_size": 6426520,
+   "date": "2026-10-17T21:10:00Z"
+  },
+  {
+   "name": "which",
+   "version": "2.23",
+   "description": "Locate a program file in the user's PATH",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://invisible-island.net/which/",
+   "deps": [],
+   "file": "which-2.23.zel",
+   "sha256": "5d350c23790a3f4a0b7c3140d7ae41fc0840b55fddde634e9c021c453c9ade3e",
+   "size": 33523,
+   "installed_size": 62919,
+   "date": "2026-10-17T20:37:51Z"
   },
   {
    "name": "wmaker",
