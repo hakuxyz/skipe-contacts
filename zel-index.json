@@ -926,16 +926,16 @@
   },
   {
    "name": "skipe",
-   "version": "0.2.0",
+   "version": "0.2.1",
    "description": "VerdaOS package manager (with Debian package support)",
    "license": "MIT",
    "homepage": "https://github.com/hakuxyz/skipe-contacts",
    "deps": [],
-   "file": "skipe-0.2.0.zel",
-   "sha256": "6c3d66207edbed2ecc94ae8a26574bd632c7a4f6c917af918247230411e7b3a2",
-   "size": 684260,
-   "installed_size": 1659648,
-   "date": "2026-10-17T21:32:00Z"
+   "file": "skipe-0.2.1.zel",
+   "sha256": "055adc696bdab44e7ef86a86513e5ad9eb5f65efe721a2ef622033bf0eed8666",
+   "size": 685230,
+   "installed_size": 1663744,
+   "date": "2026-10-17T22:10:10Z"
   },
   {
    "name": "st",
