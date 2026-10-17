@@ -285,6 +285,27 @@
    "date": "2026-10-15T20:35:45Z"
   },
   {
+   "name": "libXaw",
+   "version": "1.0.16",
+   "description": "X11 Athena Widgets library",
+   "license": "MIT",
+   "homepage": "https://www.x.org/",
+   "deps": [
+    "libXt",
+    "libXmu",
+    "libXpm",
+    "libXext",
+    "libX11",
+    "xorgproto",
+    "util-macros"
+   ],
+   "file": "libXaw-1.0.16.zel",
+   "sha256": "22382e751c1b8d9dc35c86b3184d6bd0e86e759d4f4968e20565800aa63f09a1",
+   "size": 358756,
+   "installed_size": 2223161,
+   "date": "2026-10-17T20:18:33Z"
+  },
+  {
    "name": "libXext",
    "version": "1.3.7",
    "description": "X11 protocol extensions library",
@@ -905,7 +926,7 @@
   },
   {
    "name": "verda-desktop",
-   "version": "0.3",
+   "version": "0.4",
    "description": "VerdaOS default X configuration",
    "license": "MIT",
    "homepage": "https://verdaos.org/",
@@ -916,13 +937,14 @@
     "xf86-input-keyboard",
     "xinit",
     "wmaker",
-    "fonts-dejavu"
+    "fonts-dejavu",
+    "xterm"
    ],
-   "file": "verda-desktop-0.3.zel",
-   "sha256": "7f44305147cc214439da3864f6a189e0c2a3262dd74ccd7a19cbec87a8ce3919",
-   "size": 1002,
+   "file": "verda-desktop-0.4.zel",
+   "sha256": "16a568a8cb4f6cb9e63752f8463210c5217860dbf57b119e92e95bf59e9591d4",
+   "size": 1005,
    "installed_size": 628,
-   "date": "2026-10-17T20:01:34Z"
+   "date": "2026-10-17T20:24:49Z"
   },
   {
    "name": "vim",
@@ -1282,6 +1304,28 @@
    "size": 539402,
    "installed_size": 4034934,
    "date": "2026-10-14T12:17:34Z"
+  },
+  {
+   "name": "xterm",
+   "version": "390",
+   "description": "X11 terminal emulator",
+   "license": "MIT",
+   "homepage": "https://invisible-island.net/xterm/",
+   "deps": [
+    "xorg-server",
+    "libXaw",
+    "libXft",
+    "libXext",
+    "libX11",
+    "fontconfig",
+    "freetype",
+    "ncurses"
+   ],
+   "file": "xterm-390.zel",
+   "sha256": "b919584d3f77e3864d5e7b82d90a52ec9143a0b04e5f7711a773ba71ab93b085",
+   "size": 1893079,
+   "installed_size": 4590909,
+   "date": "2026-10-17T20:23:04Z"
   },
   {
    "name": "xtrans",
