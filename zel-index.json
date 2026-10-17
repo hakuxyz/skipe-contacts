@@ -1043,7 +1043,7 @@
   },
   {
    "name": "verda-desktop",
-   "version": "0.4",
+   "version": "0.5",
    "description": "VerdaOS default X configuration",
    "license": "MIT",
    "homepage": "https://verdaos.org/",
@@ -1055,13 +1055,14 @@
     "xinit",
     "wmaker",
     "fonts-dejavu",
-    "xterm"
+    "xterm",
+    "st"
    ],
-   "file": "verda-desktop-0.4.zel",
-   "sha256": "16a568a8cb4f6cb9e63752f8463210c5217860dbf57b119e92e95bf59e9591d4",
-   "size": 1005,
-   "installed_size": 628,
-   "date": "2026-10-17T20:24:49Z"
+   "file": "verda-desktop-0.5.zel",
+   "sha256": "7ab2d564f8692f30caab38977ecf1d1f309a747fe28368d0ba89f6b8459159f8",
+   "size": 1439,
+   "installed_size": 1145,
+   "date": "2026-10-17T21:50:00Z"
   },
   {
    "name": "vim",
