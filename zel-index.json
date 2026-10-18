@@ -1000,6 +1000,19 @@
    "date": ""
   },
   {
+   "name": "thesh",
+   "version": "0.5.1",
+   "description": "Lightweight standalone POSIX shell (gretagen/thesh)",
+   "license": "MIT",
+   "homepage": "https://github.com/gretagen/thesh",
+   "deps": [],
+   "file": "thesh-0.5.1.zel",
+   "sha256": "e91e70181523948a320546a1179d28e4edb2ebf1144ee2eef0a1293a6fc3c54f",
+   "size": 128554,
+   "installed_size": 268592,
+   "date": "2026-10-18T22:43:10Z"
+  },
+  {
    "name": "tmux",
    "version": "3.4-2",
    "description": "Terminal multiplexer",
