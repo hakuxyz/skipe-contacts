@@ -834,16 +834,16 @@
   },
   {
    "name": "ncurses",
-   "version": "0",
-   "description": "",
-   "license": "",
-   "homepage": "",
+   "version": "0-2",
+   "description": "Terminal control library with terminfo database",
+   "license": "MIT",
+   "homepage": "https://invisible-island.net/ncurses/",
    "deps": [],
-   "file": "ncurses-0.zel",
-   "sha256": "3e247fc09e991d812b2162ee00f3ae854913ecde0926342f4c7293a0bb1e128a",
-   "size": 3095136,
-   "installed_size": 12171677,
-   "date": "2026-10-13T18:20:40Z"
+   "file": "ncurses-0-2.zel",
+   "sha256": "b9bdcc31e86c7e76f5fc7f46024cc526dde1aa4ad63e4049aeffbb31383f99e4",
+   "size": 6470,
+   "installed_size": 24506,
+   "date": "2026-10-18T15:08:01Z"
   },
   {
    "name": "nnn",
