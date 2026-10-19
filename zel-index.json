@@ -1000,6 +1000,26 @@
    "date": ""
   },
   {
+   "name": "sudo-rs",
+   "version": "0.2.15",
+   "description": "Rust-based sudo and su implementations (safety-oriented)",
+   "license": "MIT OR Apache-2.0",
+   "homepage": "https://github.com/trifectatechfoundation/sudo-rs",
+   "deps": [
+    "libc6",
+    "libgcc-s1",
+    "libpam0g",
+    "libpam-modules",
+    "libpam-modules-bin",
+    "libpam-runtime"
+   ],
+   "file": "sudo-rs-0.2.15.zel",
+   "sha256": "cf3d0764cdfc4b27783855991a20dc99e0c9d4194e2b21a803cd1f4450c249b6",
+   "size": 535327,
+   "installed_size": 2053839,
+   "date": "2026-10-19T00:23:57Z"
+  },
+  {
    "name": "thesh",
    "version": "0.5.1",
    "description": "Lightweight standalone POSIX shell (gretagen/thesh)",
