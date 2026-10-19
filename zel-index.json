@@ -1579,17 +1579,17 @@
    "date": "2026-10-14T18:55:27Z"
   },
   {
-   "name": "zeta-cli",
-   "version": "0.1.0",
-   "description": "Standalone HaliadeOS line tool (zeta index, ~880 packages), independent of skipe",
-   "license": "MIT",
-   "homepage": "https://github.com/hakuxyz/skipe-contacts",
+   "name": "zeta",
+   "version": "1.0.0",
+   "description": "ZETA (Zenith Energy Turbine Archiver) - official Haliade system package manager (Lua), ~880 packages via zeta-index",
+   "license": "GPL-3.0",
+   "homepage": "https://github.com/gretagen/ZETA",
    "deps": [],
-   "file": "zeta-cli-0.1.0.zel",
-   "sha256": "5e1fc6dbab951c6e1ece1777f12f790cc8d1604f825be485b5c3021934203d96",
-   "size": 346378,
-   "installed_size": 754264,
-   "date": "2026-10-19T14:45:49Z"
+   "file": "zeta-1.0.0.zel",
+   "sha256": "0c7e1fdb4f48610e1913bf1545a59c46f95fa3734715c5faa7e2246d11845254",
+   "size": 682700,
+   "installed_size": 1715128,
+   "date": "2026-10-19T15:28:30Z"
   },
   {
    "name": "zlib",
