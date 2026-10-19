@@ -939,16 +939,16 @@
   },
   {
    "name": "skipe",
-   "version": "0.2.8",
+   "version": "0.2.10",
    "description": "VerdaOS package manager (with Debian package support)",
    "license": "MIT",
    "homepage": "https://github.com/hakuxyz/skipe-contacts",
    "deps": [],
-   "file": "skipe-0.2.8.zel",
-   "sha256": "5c5726e7e465643dca318db0b80ced0321cc7795d119d6915455042626535c85",
-   "size": 704613,
+   "file": "skipe-0.2.10.zel",
+   "sha256": "240596176a150c1f94c881973be1b04c596ccf376142338ed9692b0f27306dcd",
+   "size": 704839,
    "installed_size": 1716992,
-   "date": "2026-10-19T00:35:02Z"
+   "date": "2026-10-19T13:01:02Z"
   },
   {
    "name": "st",
@@ -1561,6 +1561,19 @@
    "size": 24544,
    "installed_size": 158295,
    "date": "2026-10-14T18:55:27Z"
+  },
+  {
+   "name": "zeta",
+   "version": "1.0.0",
+   "description": "Open the optional HaliadeOS/zeta compatibility line (~750 packages); run skipe sync after installing, hangup zeta closes it again",
+   "license": "MIT",
+   "homepage": "https://github.com/gretagen/zeta-index",
+   "deps": [],
+   "file": "zeta-1.0.0.zel",
+   "sha256": "a7b9e116bf7fc39da12f53ef60772e2d21dab91817de84430679e1f4b45b5d0a",
+   "size": 892,
+   "installed_size": 426,
+   "date": "2026-10-19T13:01:04Z"
   },
   {
    "name": "zlib",
