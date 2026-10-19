@@ -1014,10 +1014,10 @@
     "libpam-runtime"
    ],
    "file": "sudo-rs-0.2.15.zel",
-   "sha256": "cf3d0764cdfc4b27783855991a20dc99e0c9d4194e2b21a803cd1f4450c249b6",
-   "size": 535327,
-   "installed_size": 2053839,
-   "date": "2026-10-19T00:23:57Z"
+   "sha256": "f4396ec421aa217e7384d06980745ae2e673e2260ae43b891b249e00c98aab03",
+   "size": 535421,
+   "installed_size": 2053863,
+   "date": "2026-10-19T00:25:08Z"
   },
   {
    "name": "thesh",
